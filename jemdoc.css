@@ -6,6 +6,45 @@ table#tlayout {
     background: white;
 }
 
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+/* Twitter */
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-github {
+    background: #6e5494;
+    color: white;
+}
+.fa-envelope-square {
+    background: #022b6d;
+    color: white;
+}
+.fa-globe {
+    background: #686b6e;
+    color: white;
+}
+
+
 body {
 	background: white;
 	font-family: Arial, serif;
