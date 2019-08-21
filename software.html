@@ -19,8 +19,53 @@
 </td>
 <td id="layout-content">
 <div id="toptitle">
-<h1>Under Construction</h1>
-<div id="subtitle"></div>
+<h1>Daniele Giacobello – Software</h1>
+</div>
+<h2>Speech Dereverberation based on Convex Optimization Algorithms for Group Sparse Linear Prediction [<a href="https://github.com/giacobello/GroupSparseLP_dereverberation">code</a>]</h2>
+<p>This code is designed around solving the following convex optimization problems for speech dereverberation:</p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/3693455082105690529-130.png" alt=" min_{bf G}, ||{bf X}-{bf X}_{tau}{bf G}||_{1,1}, " />
+<br /></div>
+<div class="eqwl"><img class="eqwl" src="eqs/1323519962397328628-130.png" alt=" min_{bf G}, ||{bf X}-{bf X}_{tau}{bf G}||_{1,1} + gamma || {bf G} ||_{1,1}, " />
+<br /></div>
+<div class="eqwl"><img class="eqwl" src="eqs/3957398667600510710-130.png" alt=" min_{bf G}, ||{bf X}-{bf X}_{tau}{bf G}||_{2,1}, " />
+<br /></div>
+<div class="eqwl"><img class="eqwl" src="eqs/8367590603740449224-130.png" alt=" min_{bf G}, ||{bf X}-{bf X}_{tau}{bf G}||_{2,1} + gamma || {bf G}||_{1,1}, " />
+<br /></div><p>using the Alternating direction method of multipliers (ADMM). </p>
+<p>The algorithmic background, motivation, etc., are described in:</p>
+<p>D. Giacobello, T. L. Jensen, &ldquo;<b>Speech Dereverberation based on Convex Optimization Algorithms for Group Sparse Linear Prediction</b>&rdquo;, in <i>Proc. 43th IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</i>, Calgary, Canada, April 2018. [<a href="files/giacobello18icassp.pdf">pdf</a> | <a href="files/giacobello18icassp_poster.pdf">poster</a>]</p>
+<p>If you use this implementation, please give reference to the above paper.</p>
+<p>COPYRIGHT: GNU General Public License v3.0</p>
+<h2>Fast Algorithms for High-Order Sparse Linear Prediction based on the Douglas-Rachford (DR) method and the Alternating Direction Method of Multipliers (ADMM) [<a href="https://github.com/giacobello/HighOrderSparseLP_fast">code</a>]</h2>
+<p>This code provides fast algorithms to solve the sparse linear prediction problem</p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/5029925667122490306-130.png" alt=" min_{bf a} || {bf x} - {bf X}{bf a} ||_1 + gamma || {bf a} ||_1, " />
+<br /></div><p>using the following methods: </p>
+<ol>
+<li><p>Douglas-Rachford (DR), </p>
+</li>
+<li><p>Alternating direction method of multipliers (ADMM). </p>
+</li>
+</ol>
+<p>The algorithmic background, motivation, etc., are described in:</p>
+<p>T. L. Jensen, D. Giacobello, T. van Waterschoot, M. G. Christensen, &ldquo;<b>Fast Algorithms for High-Order Sparse Linear Prediction with Applications to Speech Processing</b>&rdquo;, <i>Speech Communication, Special Issue on Advances in Sparse Modeling and Low-rank Modeling for Speech Processing</i>, vol. 76, pp. 143-156, February 2016. [<a href="files/giacobello15specom.pdf">pdf</a> | <a href="files/giacobello15specom_presentation.pdf">presentation</a>]</p>
+<p>If you use this implementation, please give reference to the above paper.</p>
+<p>COPYRIGHT: 2014-2015 Tobias L. Jensen, Department of Electronic Systems, Aalborg University, Denmark. slp_sm is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. slp_sm is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
+<h2>A Real-time Convex Optimization Sparse Linear Prediction Solver <a href="https://github.com/giacobello/HighOrderSparseLP_fast">code</a></h2>
+<p>This code is designed around solving the convex optimization problems:</p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/5029925667122490306-130.png" alt=" min_{bf a} || {bf x} - {bf X}{bf a} ||_1 + gamma || {bf a} ||_1, " />
+<br /></div>
+<div class="eqwl"><img class="eqwl" src="eqs/4938170956295390775-130.png" alt=" min_{bf a} || {bf x} - {bf X}{bf a} ||_2 + gamma || {bf a} ||_1. " />
+<br /></div><p>It also includes scripts for compiling, linking, testing, timings, and benchmarking procedures. </p>
+<p>The algorithmic background, motivation, etc., are described in:</p>
+<p>T. L. Jensen, D. Giacobello, M. G. Christensen, S. H. Jensen, M. Moonen, &ldquo;<b>Real-time Implementations of Sparse Linear Prediction for Speech Processing</b>&rdquo;, in <i>Proc. 38th IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</i>, Vancouver, Canada, May 2013. [<a href="files/giacobello13icassp.pdf">pdf</a> | <a href="files/giacobello13icassp_poster.pdf">poster</a>]</p>
+<p>If you use this implementation, please give reference to the above paper.</p>
+<p>COPYRIGHT: 2012 Tobias L. Jensen and Daniele Giacobello, Department of Electronic Systems, Aalborg University, Denmark. Licensed under the Apache License, Version 2.0 (the &ldquo;License&rdquo;); you may not use this file except in compliance with the License. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &ldquo;AS IS&rdquo; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2019-08-21 11:00:59 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
 </div>
 </td>
 </tr>
